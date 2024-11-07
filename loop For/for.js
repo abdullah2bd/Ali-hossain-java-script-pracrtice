@@ -41,6 +41,3 @@ let nAm = {
 for (let lvlist = 0; lvlist < 11; lvlist++) {
   console.log(nAm);
 }
-
-
-
