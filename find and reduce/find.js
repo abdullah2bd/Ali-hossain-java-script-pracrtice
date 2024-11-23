@@ -11,14 +11,5 @@
 // console.log(founds);
 
 const arrays = [33, 46, 25, 84, 19, 62, 48, 3, 2, 65, 73, 84, 99, 90];
-const founds = arrays.find((item) => item > 60 );
- console.log(founds);
-
-
-
-
-
-
-
- 
-
+const founds = arrays.find((item) => item > 60);
+console.log(founds);
