@@ -15,24 +15,10 @@ function addTask() {
   inputBox.value == "";
 }
 
-listContainer.addEventListener("click", function(e){
-if(e.target.tagName === "li"){
-  e.target.classList.toggle("checked");
-}else if(e.target.tagName === "span"){
-  e.target.parentEement.remove("checked");
-
-}
+listContainer.addEventListener("click", function (e) {
+  if (e.target.tagName === "li") {
+    e.target.classList.toggle("checked");
+  } else if (e.target.tagName === "span") {
+    e.target.parentEement.remove("checked");
+  }
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
