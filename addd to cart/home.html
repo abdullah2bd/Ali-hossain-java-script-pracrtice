@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page</title>
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div><a class="logo" href="home.html">MyShop</a></div>
+        <ul class="nav">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="cart.html">Cart</a></li>
+        </ul>
+
+        <div class="cart">
+          <span class="cart-icon">🛒</span>
+          <span class="cart-count">0</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="products-section">
+      <div class="container">
+        <div class="product-grid">
+
+          <div class="product-card">
+            <img
+            src="https://picsum.photos/200"
+            alt="Product Image"
+            class="product-image"
+          />
+          <h3 class="product-title">${product.title}</h3>
+          <p class="product-price">$${product.price}</p>
+          <button class="add-to-cart" onclick="addToCart(this)">
+            Add to Cart
+          </button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
