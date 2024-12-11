@@ -1,5 +1,8 @@
 const user = "https://jsonplaceholder.typicode.com/users";
 
+
+
+
 fetch(user)
   .then(function (respons) {
     return respons.json();
@@ -18,6 +21,10 @@ fetch(user)
       console.log(item.website);
     });
   });
+
+
+
+
 
 
 
